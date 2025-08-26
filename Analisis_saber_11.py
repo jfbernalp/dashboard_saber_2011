@@ -119,8 +119,8 @@ if opcion_seleccionada == 'Análisis Descriptivo':
     st.plotly_chart(fig_leche)
 
     comentario_alimentacion = textwrap.dedent("""
-    En cuanto a la alimentación vemos como el 81% de los estudiantes consumen proteina de origen animal más de 3 veces por semana.
-    Los productos lácteos muestran un comportamiento similar, más de 70% de los esudiantes los consumen más de 3 veces a la semana.
+    En cuanto a la alimentación vemos como el 81% de los estudiantes consumen proteína de origen animal más de 3 veces por semana.
+    Los productos lácteos muestran un comportamiento similar, más de 70% de los estudiantes los consumen más de 3 veces a la semana.
     ***Veamos si la alimentación influye en el desempeño de los estudiantes***
     """)
 
@@ -141,7 +141,7 @@ if opcion_seleccionada == 'Análisis Descriptivo':
     st.dataframe(df_rendimiento)
 
     conclusion_alimenrtacion_rendimiento = textwrap.dedent("""
-    Como vemos en la tabla anteror, hay una clara corelación positiva entre el consumo regular de proteína de origen animal y el desempeño de los estudiantes.
+    Como vemos en la tabla anterior, hay una clara correlación positiva entre el consumo regular de proteína de origen animal y el desempeño de los estudiantes.
     Los estudiantes que consumen carne y lácteos todos los días presentan la media de puntaje más alta, en contraste con los que no consumen estos productos que presentan el promedio más bajo.
     Es así como se puede empezar a esbozar la teoría de que a mayor poder adquisitivo mejor desempeño en las pruebas.
     """)
@@ -310,7 +310,7 @@ elif opcion_seleccionada == 'Análisis Socioeconómico':
     st.markdown(conclusion)
 
 if opcion_seleccionada == 'Análisis de resultados por género':
-    st.header('¿Cómo fueron lso resultados según el género?')
+    st.header('¿Cómo fueron los resultados según el género?')
 
     st.subheader('Estudiantes por género')
 
